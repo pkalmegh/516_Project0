@@ -1,0 +1,23 @@
+# TODO: Databases/Systems that I "possibly" know
+- Apache Hive
+- Oracle
+- MySQL
+- PostgreSQL
+- SAP Hana
+- Microsoft SQL Server
+- Microsoft PDW
+- IBM DB2
+- HPCC
+
+- Neo4j
+- FlockDB
+- Titan
+- Trinity
+- Giraph
+- Allegograph
+- HypergraphDB
+- Objectivity Infinitegraph
+- Cassandra
+- Hypertable
+- HBase
+- MongoDB
