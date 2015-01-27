@@ -1,12 +1,21 @@
-#Oracle Exadata 
-Component of Oracle Big Data Appliance
+#Oracle Big Data Appliance
+- Capture data using Hadoop and NoSQL databases, use connectors to migrate data and then perform advanced analytics in DWH
+- Consists of: 
+	- Oracle Exadata 
+	- Oracle Exalytics 
+	- Hadoop connector (Oracle Data Integrator)
+	- Oracle NoSQL DB
+	- Oracle R
+	- Oracle Linux and Java Hotspot 
+	
+##Oracle Exadata 
 
-##Strengths:
+###Strengths:
 - Features such as SmartScan for non-indexed table scans are much faster than Oracle Enterprise deployment
 - FlashCache for read-intensive environments
 - Hybrid columnar compression provide better data optimization
 
-##Weaknesses
+###Weaknesses
 - Huge software deployment cost while having a lower hardware appliance cost
 - All the new features compel you to lose flexibility For eg. 
 	- owing to the FlashCache support, a cache miss incurs a severe overhead 
@@ -18,16 +27,16 @@ Component of Oracle Big Data Appliance
 - https://451research.com/report-short?entityId=82175&referrer=marketing
 
 
-# Oracle Exalytics (component of Oracle Big Data Appliance)
-##Strengths:
+## Oracle Exalytics (component of Oracle Big Data Appliance)
+###Strengths:
 - provides a complete stack: customized hardware/firmware and optimized software 
 - In-memory data storage [based on Oracle's timesten](http://www.informationweek.com/software/information-management/oracle-exalytics-is-it-a-must-have-for-bi/d/d-id/1106806?)
 - Can be used even if the [data is not stored in Oracle databases](http://www.peakindicators.com/index.php/knowledge-base/111-exalytics-frequently-asked-questions-faq)
 
-##Weaknesses
+###Weaknesses
 - [Limitations](http://www.peakindicators.com/index.php/knowledge-base/111-exalytics-frequently-asked-questions-faq) answered in Q11
 
-##References:
+###References:
 - https://www.oracle.com/engineered-systems/exalytics/features.html
 
 # Oracle TimesTen

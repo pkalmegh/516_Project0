@@ -26,7 +26,7 @@
 
 # MammothDB
 ##Strengths:
-- Lets you interface your SQL reporting tools like Tableu, Cognos, Excel etc to query interactively over Hadoop data
+- Lets you interface your SQL reporting tools like Tableau, Cognos, Excel etc to query interactively over Hadoop data
 - Star and Snowflake schema compliant. 
 
 ##Weaknesses

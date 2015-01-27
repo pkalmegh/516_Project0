@@ -34,34 +34,6 @@
 ### References
   - http://www.cascading.org/projects/lingual/
 
-
-## Spark-SQL
-### Strengths
-  - Mix and match SQL and more advanced analytics programming APIs
-  - Unlike Shark, developed ground-up to leverage underlying SPARK capabilities
-  - allows declarative transformations on groups of tuples (partitioned and loaded as SchemaRDDs)
-  - Multiple interfaces (Scala/Python/Java/Hive-QL)
-  - Multiple programming options (SQL/MLLib/Graphlab/Spark)
-  - Multiple data sources(HDFS/S3) and data formats(Hive/Json/Parquet) support
-  - Allows integration with BI tools with ODBC/JDBC support
-  - Plug and play UDF support to allow registering UDFS
-  - No boxing of primitives when evaluating expressions. Extended Scala API for adding this support
-  - Operations such as ETL + data manipulation + data query are all performed seamlessly within the same pipeline without intermediate HDFS read/writes
-  
-### Weaknesses
-  - No monitoring tool or API to get a picture of in-memory RDDs
-
-
-### References
-  - [Interesting comparison with Apache Flink](http://www.slideshare.net/KostasTzoumas/apache-flink-api-runtime-and-project-roadmap) that talks about blocked staging in Spark vs pipelined staging in Flink. 
-  - http://databricks.com/blog/2014/07/01/shark-spark-sql-hive-on-spark-and-the-future-of-sql-on-spark.html
-  - http://www.slideshare.net/jeykottalam/spark-sqlamp-camp2014
-  - http://www.slideshare.net/Hadoop_Summit/building-a-unified-data-pipeline-in-apache-spark
-  - http://www.cs.berkeley.edu/~matei/papers/2010/hotcloud_spark.pdf
-  - https://www.cs.berkeley.edu/~matei/papers/2012/nsdi_spark.pdf
-  
-
- 
 ## Datasalt's Splout SQL
 ### Strengths
   - Targeted towards web/mobile applications 
@@ -99,4 +71,20 @@
 
 ### References
   - https://gigaom.com/2012/07/24/how-one-startup-wants-to-inject-hadoop-into-your-sql/
+
+
+## Apache Flink (previously Stratosphere)
+### Strengths
+  - Very similar offerings to Apache Spark
+  - Provides a in-memory 
+  - Multiple programming options (SQL/ML/Graph/Streaming)
+
+### Weaknesses
+  - It has not yet penetrated the BigData space in the US. Some say it's Europe's wildcard entry](https://medium.com/chasing-buzzwords/is-apache-flink-europes-wild-card-into-the-big-data-race-a189fcf27c4c) into the Bigdata world
+  - Not sure about data format and multiple system support
+  - Not a robust ML library
+  - Still [working on providing fault-tolerance](http://apache-flink-incubator-user-mailing-list-archive.2336050.n4.nabble.com/Flink-and-Spark-td583.html) for both batch and streaming modes
+
+### References
+- http://www.slideshare.net/stephanewen1/apache-flink-overview
 
