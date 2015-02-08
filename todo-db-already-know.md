@@ -20,4 +20,7 @@
 - Cassandra
 - Hypertable
 - HBase
+  - https://www.youtube.com/watch?v=_HLoH_PgrLk
+  - http://blog.cloudera.com/blog/2012/06/hbase-io-hfile-input-output/
+  - http://www.larsgeorge.com/2009/11/hbase-vs-bigtable-comparison.html
 - MongoDB
