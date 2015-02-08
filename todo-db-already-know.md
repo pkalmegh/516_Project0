@@ -28,4 +28,5 @@
   - http://blog.mongodb.org/post/72874267152/transitioning-from-relational-databases-to-mongodb
   - http://www.mongodb.com/presentations/webinar-relational-databases-mongodb-what-you-need-know?_ga=1.141718898.1357153881.1422333275
   - https://www.youtube.com/watch?v=PIWVFUtBV1Q
-  - 
+  - http://docs.mongodb.org/manual/reference/sql-comparison/
+  - http://www.mongodb.com/mongodb-and-mysql-compared?_ga=1.83525206.1357153881.1422333275
