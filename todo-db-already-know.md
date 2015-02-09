@@ -24,6 +24,7 @@
   - http://blog.cloudera.com/blog/2012/06/hbase-io-hfile-input-output/
   - http://www.larsgeorge.com/2009/11/hbase-vs-bigtable-comparison.html
   - https://www.youtube.com/watch?v=xHvJhuGGOKc
+  - http://hadoop-hbase.blogspot.com/2012/03/acid-in-hbase.html
 - MongoDB
   - http://blog.mongodb.org/post/72874267152/transitioning-from-relational-databases-to-mongodb
   - http://www.mongodb.com/presentations/webinar-relational-databases-mongodb-what-you-need-know?_ga=1.141718898.1357153881.1422333275
