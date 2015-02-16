@@ -8,6 +8,7 @@ TODO: Categorization based on [IBM Bigdata classification](http://www.ibm.com/de
 - Apache Hadoop
 - Apache Spark
 - Apache Mesos
+  - http://radar.oreilly.com/2015/02/a-tale-of-two-clusters-mesos-and-yarn.html
 
 # SQL-on-Hadoop
 ## Desirable Features:
